@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template</title>
+</head>
+<body>
+    <h1 style="text-align: center; color :gray">Welcome to the text analyzer . Enter your text below</h1>
+    <form action='/analyze' method="GET">
+     <textarea name='text' style="margin: 0px; width: 130vh; height: 23vh;"></textarea><br>
+     <input type="checkbox" name="removepunc">Remove punchtuation<br>
+     <input type="checkbox" name="fullcaps">UPPERCASE<br>
+     <input type="checkbox" name="spaceremover">remove all spaces<br>
+     <input type="checkbox" name="extraspaceremover">remove all the extra spaces<br>
+     <input type="checkbox" name="charcount">Count character<br>
+     <button type="submit">analyze Text</button>
+    </form>
+</body>
+</html>
